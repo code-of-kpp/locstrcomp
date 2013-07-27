@@ -1,6 +1,6 @@
 locstrcomp
 ==========
 
-Localized string comparising example
+Localized string comparison example
 
 You need boost::locale compilled with ICU to use it.
