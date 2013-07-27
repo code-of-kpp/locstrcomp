@@ -29,7 +29,7 @@ T max(const T t1, const T t2, const T t3)
 
 template<class T, class C>
 unsigned int
-levenshtein_distance(const T &a, const T & b, const C& equal)
+levenshtein_distance(const T& a, const T& b, const C& equal)
 {
     std::vector<unsigned int> current(b.size() + 1);
     std::vector<unsigned int> previous(b.size() + 1);
